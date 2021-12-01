@@ -1,4 +1,4 @@
-package be.acerta.pieter.advent2021.day1.puzzlea;
+package be.acerta.pieter.advent2021.day1;
 
 import be.acerta.pieter.advent2021.InputFileReadingUtil;
 
@@ -7,7 +7,7 @@ import java.util.List;
 import static java.lang.String.format;
 import static java.util.stream.Collectors.toList;
 
-public class Puzzle1A {
+public class Puzzle1 {
 
     public static void main(String... args) {
         runDetection(1);
