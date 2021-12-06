@@ -15,7 +15,7 @@ public class Puzzle1 {
     }
 
     private static void runDetection(int windowSize) {
-        List<Long> depths = InputFileReadingUtil.readFileLines("puzzle1a_input.txt").stream()
+        List<Long> depths = InputFileReadingUtil.readFileLines("puzzle1_input.txt").stream()
                 .map(Long::parseLong)
                 .collect(toList());
 
