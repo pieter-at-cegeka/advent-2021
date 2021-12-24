@@ -2,8 +2,6 @@ package be.acerta.pieter.advent2021.day21;
 
 import java.util.Objects;
 
-import static java.util.Comparator.comparing;
-
 public class ScorePair {
     private final int scoreOfPlayer1;
     private final int scoreOfPlayer2;
